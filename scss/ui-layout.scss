@@ -17,37 +17,29 @@ $bg: mix($atom-inner, $theme-1, 80%);
   position: absolute;
   opacity: 1;
   z-index: 10;
-  top: 25vh;
-  bottom: 0px;
+  top: 45vh;
   left: 10px;
   right: 10px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1000px;
+  max-width: 500px;
   padding: 10px;
   border-radius: 7px;
   background-color: rgba($bg, 0.95);
-  overflow-y: auto;
-  overflow-x: hidden;
 }
 
-@media(min-width: 800px) {
-  .ui-content {
-    top: 310px;
-  }
-}
 
 .content {
   color: $atom-text;
-  
+
   a:not(.button) {
       border-bottom: 1px solid $atom-inner;
   }
-  
+
   a:not(.button) {
     color: $trek-blue;
   }
-  
+
   a:not(.button):visited {
     color: $trek-blue;
   }
