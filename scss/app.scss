@@ -1,0 +1,20 @@
+// Global Variables
+
+$atom-inner: #282C34;
+$atom-outer: #21252B;
+$atom-dark: #1B1D23;
+$atom-text: #9DA5B4;
+$atom-highlight: #528BFF;
+$atom-purple: #C678DD;
+
+$trek-blue: #63C3F6;
+
+$theme-1: #525E75;
+$theme-2: #755269; // Parrot pink
+$theme-3: #5F5275; // Old Lavendar
+
+// IMPORTS  
+@import "ui-layout.scss";
+@import "components.scss";
+@import "page.scss";
+@import "tabs.scss";

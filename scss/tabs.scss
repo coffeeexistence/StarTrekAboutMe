@@ -1,0 +1,36 @@
+.tabs {
+  border-bottom: solid 1px $atom-inner;
+  padding-bottom: 5px;
+  min-height: 40px;
+}
+
+.ui-header {
+  border-bottom: solid 1px $atom-inner;
+  padding-bottom: 5px;
+  min-height: 40px;
+}
+
+.tab {
+  text-align: center;
+  font-family: 'Roddenberry-Italic';
+  color: $trek-blue;
+  padding: 5px;
+  font-size: 25px;
+  margin-bottom: 0;
+  
+}
+
+.content-section {
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+.achievement {
+  padding-bottom: 30px;
+  .title {
+    font-weight: 500;
+    color: $atom-text;
+    font-size: 19px;
+    margin-bottom: 8px;
+  }
+}

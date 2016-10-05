@@ -1,0 +1,80 @@
+.ui-row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ui-row.center-items {
+  align-items: center;
+}
+
+$bg: mix($atom-inner, $theme-1, 80%);
+
+.ui-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  opacity: 1;
+  z-index: 10;
+  top: 25vh;
+  bottom: 0px;
+  left: 10px;
+  right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: rgba($bg, 0.95);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+@media(min-width: 800px) {
+  .ui-content {
+    top: 310px;
+  }
+}
+
+.content {
+  color: $atom-text;
+  
+  a:not(.button) {
+      border-bottom: 1px solid $atom-inner;
+  }
+  
+  a:not(.button) {
+    color: $trek-blue;
+  }
+  
+  a:not(.button):visited {
+    color: $trek-blue;
+  }
+}
+
+
+
+.scroll-styled::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: rgba($bg, 0.95);
+}
+
+.scroll-styled::-webkit-scrollbar
+{
+  border-radius: 10px;
+	width: 12px;
+	background-color: rgba($bg, 0.95);
+}
+
+.scroll-styled::-webkit-scrollbar-thumb
+{
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: darken($atom-text, 35%);
+}
+
+.scroll-styled::-webkit-scrollbar-corner {
+      background-color: rgba(black, 0);
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */

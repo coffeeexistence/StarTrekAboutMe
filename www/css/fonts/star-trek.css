@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Roddenberry';
+    src:  url('Roddenberry.ttf.woff') format('woff'),
+    url('Roddenberry.ttf.svg#Roddenberry') format('svg'),
+    url('Roddenberry.ttf.eot'),
+    url('Roddenberry.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roddenberry-Italic';
+    src:  url('Roddenberry-Italic.ttf.woff') format('woff'),
+    url('Roddenberry-Italic.ttf.svg#Roddenberry-Italic') format('svg'),
+    url('Roddenberry-Italic.ttf.eot'),
+    url('Roddenberry-Italic.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}

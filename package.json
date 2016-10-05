@@ -1,0 +1,27 @@
+{
+  "name": "2.0",
+  "version": "1.0.0",
+  "description": "My New Site",
+  "main": "www/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.16.0",
+    "browser-sync": "^2.17.0",
+    "bulma": "^0.2.1",
+    "gulp": "^3.5.6",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.2.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^0.3.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.3",
+    "shelljs": "^0.7.4"
+  },
+  "author": "",
+  "license": "ISC"
+}
